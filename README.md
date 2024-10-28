@@ -34,14 +34,17 @@ On the homepage, users will be able to see a list of all their posts and the pos
 3. Install the dependencies:
    ```bash
    pip install django
-4. Run the database migrations:
+4. Go to ```social``` folder:
+      ```bash
+      cd social
+5. Run the database migrations:
    ```bash
    python manage.py migrate
-5. Create a superuser (optional):
+6. Create a superuser (optional):
    ```bash
    python manage.py createsuperuser
-6. Start the development server:
+7. Start the development server:
    ```bash
    python manage.py runserver
-7. Access the application in your browser at ```http://127.0.0.1:8000/```.
+8. Access the application in your browser at ```http://127.0.0.1:8000/```.
 Feel free to create your user account, customize it with a profile picture, and post as much as you like. For the posts, edit and delete your own as you wish, and of course, like the coolest ones.
