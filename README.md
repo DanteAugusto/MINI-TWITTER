@@ -28,21 +28,26 @@ Na página inicial, os usuários poderão ver uma lista de todos os seus posts e
    cd mini-twitter
 
 2. Crie um ambiente virtual e ative-o:
-    python -m venv venv
+   ```bash
+   python -m venv venv
     source venv/bin/activate  # Linux/Mac
     venv\Scripts\activate  # Windows
 
 3. Instale as dependências:
-    pip install django
+   ```bash
+   pip install django
 
 4. Execute as migrações do banco de dados:
-    python manage.py migrate
+   ```bash
+   python manage.py migrate
 
 5. Crie um superusuário (opcional):
-    python manage.py createsuperuser
+   ```bash
+   python manage.py createsuperuser
 
 6. Inicie o servidor de desenvolvimento:
-    python manage.py runserver
+   ```bash
+   python manage.py runserver
 
 7. Acesse a aplicação no navegador em http://127.0.0.1:8000/.
 
