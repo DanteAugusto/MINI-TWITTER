@@ -17,8 +17,7 @@ Na página inicial, os usuários poderão ver uma lista de todos os seus posts e
 ## Tecnologias Utilizadas
 
 - **Django**: Framework web utilizado para construir a aplicação.
-- **Django REST Framework**: Para a criação de APIs e gerenciamento de sessões.
-- **SQLite/PostgreSQL**: Para persistência de dados.
+- **SQLite**: Para persistência de dados.
 
 ## Instalação
 
