@@ -1,55 +1,47 @@
 # Mini-Twitter
 
-Mini-Twitter é uma rede social simplificada desenvolvida com Django, onde os usuários podem criar contas, compartilhar pensamentos e interagir com as publicações de outros usuários. Inspirado no Twitter, este projeto permite a criação e gerenciamento de posts, além de funcionalidades de curtir e seguir usuários.
+Mini-Twitter is a simplified social network developed with Django, where users can create accounts, share thoughts, and interact with the posts of other users. Inspired by Twitter, this project allows for the creation and management of posts, as well as functionalities for liking and following users.
 
-## Funcionalidades
+## Features
 
-- **Cadastro de Usuário**: Os usuários podem criar uma conta facilmente.
-- **Criar Posts**: Os usuários podem escrever novos posts, que podem ser visualizados na página inicial.
-- **Editar e Deletar Posts**: Os usuários têm a opção de editar ou excluir seus próprios posts.
-- **Curtir Posts**: Os usuários podem curtir posts de outros usuários.
-- **Seguir e Deixar de Seguir Usuários**: Os usuários podem seguir outros usuários para ver seus posts na página inicial.
+- **User Registration**: Users can easily create an account.
+- **Create Posts**: Users can write new posts that can be viewed on the homepage.
+- **Edit and Delete Posts**: Users have the option to edit or delete their own posts.
+- **Like Posts**: Users can like posts from other users.
+- **Follow and Unfollow Users**: Users can follow other users to see their posts on the homepage.
 
-## Página Inicial
+## Homepage
 
-Na página inicial, os usuários poderão ver uma lista de todos os seus posts e dos posts dos usuários que estão seguindo, facilitando a interação e o compartilhamento de pensamentos.
+On the homepage, users will be able to see a list of all their posts and the posts from users they are following, facilitating interaction and sharing of thoughts.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **Django**: Framework web utilizado para construir a aplicação.
-- **SQLite**: Para persistência de dados.
+- **Django**: The web framework used to build the application.
+- **SQLite**: For data persistence.
 
-## Instalação
+## Installation
 
-1. Clone o repositório:
+1. Clone the repository:
 
    ```bash
-   git clone https://github.com/seu-usuario/mini-twitter.git
+   git clone https://github.com/your-username/mini-twitter.git
    cd mini-twitter
-
-2. Crie um ambiente virtual e ative-o:
+2. Create a virtual environment and activate it:
    ```bash
    python -m venv venv
-    source venv/bin/activate  # Linux/Mac
-    venv\Scripts\activate  # Windows
-
-3. Instale as dependências:
+   source venv/bin/activate  # Linux/Mac
+   venv\Scripts\activate  # Windows
+3. Install the dependencies:
    ```bash
    pip install django
-
-4. Execute as migrações do banco de dados:
+4. Run the database migrations:
    ```bash
    python manage.py migrate
-
-5. Crie um superusuário (opcional):
+5. Create a superuser (optional):
    ```bash
    python manage.py createsuperuser
-
-6. Inicie o servidor de desenvolvimento:
+6. Start the development server:
    ```bash
    python manage.py runserver
-
-7. Acesse a aplicação no navegador em http://127.0.0.1:8000/.
-
-Sinta-se livre para criar sua conta de usuário, personalizar ela com uma foto de perfil e muitos posts.
-Quanto aos posts, edite-os e delete-os à vontade (os que forem seus) e, claro, curta os mais legais.
+7. Access the application in your browser at ```http://127.0.0.1:8000/```.
+Feel free to create your user account, customize it with a profile picture, and post as much as you like. For the posts, edit and delete your own as you wish, and of course, like the coolest ones.
